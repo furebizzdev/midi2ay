@@ -1,0 +1,21 @@
+/* Estilos extras para o dashboard - minimal */
+body {
+    overflow-x: hidden;
+}
+
+/* Canvas styling */
+canvas {
+    image-rendering: pixelated;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--primary, #00ffcc);
+    border-radius: 4px;
+}
