@@ -1,0 +1,15 @@
+{
+  "name": "maestro-ay-converter",
+  "version": "1.0.0",
+  "description": "Conversor MIDI / MusicXML → formato .ay do Maestro",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "dev": "python3 -m http.server 8080 --directory dashboard",
+    "cli": "node dashboard/cli/maestro-ay-convert.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
